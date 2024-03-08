@@ -1,0 +1,74 @@
+/*
+ * Custom CSS
+ */
+
+:root {
+  --bs-body-bg: var(--bs-gray-100);
+}
+
+.faq {
+  width: 80%;
+  margin: 0 auto;
+}
+
+details {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+details[open] {
+  background-color: #eef;
+}
+
+#container {
+  display: flex;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#container {
+  flex-grow: 120px;
+}
+
+#container {
+  align-items: stretch
+}
+
+.wrapper li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px 5px;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.my-navbar {
+  display: flex !important;
+  justify-content: end !important;
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
