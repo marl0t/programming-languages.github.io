@@ -74,7 +74,7 @@ img {
 }
 
 .img-carrousel {
-  object-fit: cover;
+  object-fit: initial;
   height: 787px;
 }
 
@@ -89,12 +89,65 @@ body.light-theme {
 }
 
 body.dark-theme {
-  background-color: #121212;
-  color: #ffffff;
+  background: #202634 !important;
+  color: #a9acb3 !important;
+  ;
 }
 
 .boxed-text {
   border: 2px solid currentColor;
   padding: 15px;
   margin-top: 20px;
+}
+
+body.dark-theme #Navbar {
+  background: #202634 !important;
+  color: #a9acb3 !important;
+}
+
+body.dark-theme #Menu {
+
+  background: #ffffff;
+
+}
+
+body.dark-theme .text-muted {
+  color: #a9acb3 !important;
+
+}
+
+#carouselExampleCaptions {
+
+  margin-bottom: 40px;
+}
+
+body.dark-theme .accordion-button::after {
+
+  filter: invert(48%) sepia(79%) saturate(1%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+body.dark-theme .accordion-button {
+  background: #293042 !important;
+  color: #a9acb3 !important;
+}
+
+body.dark-theme .accordion-body {
+  background: #202634 !important;
+  color: #a9acb3 !important;
+}
+
+body.dark-theme .nav-link.active.nav-lang {
+  background-color: #3f80ea;
+
+}
+
+#themeToggle {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  /* отображаем курсор в виде руки при наведении; некоторые
+  считают, что необходимо оставлять стрелочный вид для кнопок */
+  cursor: pointer;
 }

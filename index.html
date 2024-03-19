@@ -8,16 +8,18 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
+
   <div class="flex-wrapper container">
     <div class="content">
-      <nav id="navbar-example" class="navbar bg-body-tertiary fixed-top">
+      <nav id="navbar-example" class="navbar  fixed-top">
         <div class="container-fluid my-navbar">
           <!-- <button id="themeToggle">Переключить тему</button> -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <button class="navbar-toggler " id="Menu" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
@@ -35,7 +37,19 @@
                   <a class="nav-link" href="index2.html">FAQ</a>
                 </li>
               </ul>
-              <button id="themeToggle">Переключить тему</button>
+              <button id="themeToggle">
+                <svg enable-background="new 0 0 512 512" height="30px" id="Layer_1" version="1.1" viewBox="0 0 512 512"
+                  width="30px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g>
+                    <g>
+                      <path
+                        d="M256,144c-61.75,0-112,50.25-112,112s50.25,112,112,112s112-50.25,112-112S317.75,144,256,144z M256,336    c-44.188,0-80-35.812-80-80c0-44.188,35.812-80,80-80c44.188,0,80,35.812,80,80C336,300.188,300.188,336,256,336z M256,112    c8.833,0,16-7.167,16-16V64c0-8.833-7.167-16-16-16s-16,7.167-16,16v32C240,104.833,247.167,112,256,112z M256,400    c-8.833,0-16,7.167-16,16v32c0,8.833,7.167,16,16,16s16-7.167,16-16v-32C272,407.167,264.833,400,256,400z M380.438,154.167    l22.625-22.625c6.25-6.25,6.25-16.375,0-22.625s-16.375-6.25-22.625,0l-22.625,22.625c-6.25,6.25-6.25,16.375,0,22.625    S374.188,160.417,380.438,154.167z M131.562,357.834l-22.625,22.625c-6.25,6.249-6.25,16.374,0,22.624s16.375,6.25,22.625,0    l22.625-22.624c6.25-6.271,6.25-16.376,0-22.625C147.938,351.583,137.812,351.562,131.562,357.834z M112,256    c0-8.833-7.167-16-16-16H64c-8.833,0-16,7.167-16,16s7.167,16,16,16h32C104.833,272,112,264.833,112,256z M448,240h-32    c-8.833,0-16,7.167-16,16s7.167,16,16,16h32c8.833,0,16-7.167,16-16S456.833,240,448,240z M131.541,154.167    c6.251,6.25,16.376,6.25,22.625,0c6.251-6.25,6.251-16.375,0-22.625l-22.625-22.625c-6.25-6.25-16.374-6.25-22.625,0    c-6.25,6.25-6.25,16.375,0,22.625L131.541,154.167z M380.459,357.812c-6.271-6.25-16.376-6.25-22.625,0    c-6.251,6.25-6.271,16.375,0,22.625l22.625,22.625c6.249,6.25,16.374,6.25,22.624,0s6.25-16.375,0-22.625L380.459,357.812z"
+                        fill="#1D1D1B" />
+                    </g>
+                  </g>
+                </svg>
+              </button>
             </div>
           </div>
         </div>
@@ -46,37 +60,37 @@
 
 
         <div class="social-author__avatar image">
-          <div class="cover-all image"
-            style="background-image: url(&quot;https://spectrum.ieee.org/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNzA1NzgwMy9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTc1NDMwOTIzMn0.-LfdQ_dAgeI8bW60TBiV6n1yYbwClaYfIplMA9ODM9c/image.png?width=210&quot;)">
-          </div>
+
         </div>
-        <a class="social-author__name rm-stats-tracked" href="https://spectrum.ieee.org/u/stephen-cass"
-          data-type="text">Stephen Cass</a>
+
 
         <h1 class="my-5">Основные языки прогррамирования для создания сайтов</h1>
         <div class="scrollspy-language row">
           <div class="col-3">
             <nav id="navbar" class="h-100 flex-column align-items-stretch pe-4 border-end">
               <nav class="nav nav-pills flex-column">
-                <a class="nav-link" href="#item-1">Язык программирования#1</a>
+                <a class="nav-link nav-lang" href="#item-1">Язык программирования#1</a>
                 <nav class="nav nav-pills flex-column">
-                  <a class="nav-link ms-3 my-1" href="#item-1-1">История языка Python</a>
-                  <a class="nav-link ms-3 my-1" href="#item-1-2">Популярные компании которые используют Python</a>
+                  <a class="nav-link nav-lang ms-3 my-1" href="#item-1-1">История языка Python</a>
+                  <a class="nav-link nav-lang ms-3 my-1" href="#item-1-2">Популярные компании которые используют
+                    Python</a>
                 </nav>
                 <a class="nav-link" href="#item-2">Язык программирования#2</a>
                 <nav class="nav nav-pills flex-column">
-                  <a class="nav-link ms-3 my-1" href="#item-2-1">История языка JavaScript</a>
-                  <a class="nav-link ms-3 my-1" href="#item-2-2">Популярные компании которые используют JavaScript</a>
+                  <a class="nav-link nav-lang ms-3 my-1" href="#item-2-1">История языка JavaScript</a>
+                  <a class="nav-link nav-lang ms-3 my-1" href="#item-2-2">Популярные компании которые используют
+                    JavaScript</a>
                 </nav>
                 <a class="nav-link" href="#item-3">Язык программирования#3</a>
                 <nav class="nav nav-pills flex-column">
-                  <a class="nav-link ms-3 my-1" href="#item-3-1">История языка C#</a>
-                  <a class="nav-link ms-3 my-1" href="#item-3-2">Популярные компании которые используют C#</a>
+                  <a class="nav-link nav-lang ms-3 my-1" href="#item-3-1">История языка C#</a>
+                  <a class="nav-link nav-lang ms-3 my-1" href="#item-3-2">Популярные компании которые используют C#</a>
                 </nav>
                 <a class="nav-link" href="#item-4">Язык программирования#4</a>
                 <nav class="nav nav-pills flex-column">
-                  <a class="nav-link ms-3 my-1" href="#item-4-1">История языка Java</a>
-                  <a class="nav-link ms-3 my-1" href="#item-4-2">Популярные компании которые используют Java</a>
+                  <a class="nav-link nav-lang ms-3 my-1" href="#item-4-1">История языка Java</a>
+                  <a class="nav-link nav-lang ms-3 my-1" href="#item-4-2">Популярные компании которые используют
+                    Java</a>
                 </nav>
               </nav>
             </nav>
