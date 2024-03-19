@@ -59,6 +59,7 @@ img {
 
 .card {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 .my-navbar {
@@ -107,7 +108,7 @@ body.dark-theme #Navbar {
 
 body.dark-theme #Menu {
 
-  background: #ffffff;
+  filter: invert(48%) sepia(79%) saturate(1%) hue-rotate(86deg) brightness(118%) contrast(119%);
 
 }
 
@@ -150,4 +151,40 @@ body.dark-theme .nav-link.active.nav-lang {
   /* отображаем курсор в виде руки при наведении; некоторые
   считают, что необходимо оставлять стрелочный вид для кнопок */
   cursor: pointer;
+}
+
+body.dark-theme .card {
+  background: #202634 !important;
+  color: #a9acb3 !important;
+  box-shadow: 0 0 10px #5e94eb;
+
+}
+
+body.dark-theme .list-group-item {
+  background: #202634 !important;
+  color: #a9acb3 !important;
+
+}
+
+footer {
+  margin-top: 70px;
+  opacity: 0.7;
+  font-size: 15px;
+}
+
+body.dark-theme .dark-theme-variant-1 {
+
+  background: #202634 !important;
+  color: #a9acb3 !important;
+}
+
+body.dark-theme .dark-theme-variant-2 {
+
+  background: #293042 !important;
+  color: #a9acb3 !important;
+}
+
+body.dark-theme .dark-theme-variant-3 {
+
+  filter: invert(48%) sepia(79%) saturate(1%) hue-rotate(86deg) brightness(118%) contrast(119%);
 }
