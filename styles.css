@@ -72,3 +72,29 @@ img {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.img-carrousel {
+  object-fit: cover;
+  height: 787px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  transition: background-color 0.5s ease;
+}
+
+body.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.boxed-text {
+  border: 2px solid currentColor;
+  padding: 15px;
+  margin-top: 20px;
+}
